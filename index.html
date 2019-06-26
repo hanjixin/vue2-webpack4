@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    
+    <!--申明当前页面的编码集-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!--网页关键词-->
+    <meta name="keywords" content="" />
+    <!--网页描述-->
+    <meta name="description" content="" />
+    <!--适配当前屏幕-->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=10, maximum-scale=1.0, user-scalable=0" /> -->
+   
+    <!-- <meta name="viewport" content="width=375, initial-scale=1, user-scalable=no, target-densitydpi=device-dpi" /> -->
+    <!--禁止自动识别电话号码-->
+    <meta name="format-detection" content="telephone=no" />
+    <!--禁止自动识别邮箱-->
+    <meta content="email=no" name="format-detection" />
+    <!--iphone中safari私有meta标签,
+        允许全屏模式浏览,隐藏浏览器导航栏-->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!--iphone中safari顶端的状态条的样式black(黑色)-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <script>
+        var phoneWidth =  parseInt(window.screen.width);
+        var phoneScale = phoneWidth/375;
+       document.write('<meta name="viewport" content="width=375,initial-scale='+ phoneScale +',minimum-scale = '+ phoneScale +', maximum-scale = '+ phoneScale +', target-densitydpi=device-dpi">');
+     </script>
+    <title>如荐</title>
+  
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- <von-app></von-app> -->
+    <!-- built files will be auto injected -->
+  </body>
+  
+</html>

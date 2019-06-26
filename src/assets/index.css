@@ -1,0 +1,100 @@
+html {
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 401px) {
+  html {
+    font-size: 25px !important;
+  }
+}
+
+@media only screen and (min-width: 428px) {
+  html {
+    font-size: 26.75px !important;
+  }
+}
+
+@media only screen and (min-width: 481px) {
+  html {
+    font-size: 30px !important;
+  }
+}
+
+@media only screen and (min-width: 569px) {
+  html {
+    font-size: 35px !important;
+  }
+}
+
+@media only screen and (min-width: 641px) {
+  html {
+    font-size: 40px !important;
+  }
+}
+
+html,body {
+  min-height: 100%;
+  width: 100%;
+  background: white;
+}
+html::-webkit-scrollbar{
+  width:0px;
+  display: none;
+  opacity: 0;
+}
+body::-webkit-scrollbar{
+  width:0px;
+  display: none;
+  opacity: 0;
+}
+div::-webkit-scrollbar{
+  width:0px;
+  display: none;
+  opacity: 0;
+}
+
+body {
+  /* font-family: "Helvetica Neue", Helvetica, "STHeiTi", sans-serif; */
+  font-family: PingFang SC,Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,Heiti SC,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-size: 0.7rem;
+}
+
+.clear {
+  zoom: 1;
+}
+
+.clear:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.viewport {
+  max-width: 640px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+.button-balanced {
+  background: #01B888 !important;
+}
+.mint-header-title {
+  color: #333333 !important;
+
+}
+.mint-header {
+  background: white;
+}
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}

@@ -1,0 +1,117 @@
+.app-container {
+  background: #f0f0f5;
+}
+.div::-webkit-scrollbar {
+  display: none;
+}
+.mint-header {
+  background: white;
+  color: black;
+}
+.padding-both {
+  background: white;
+  padding: 0 1rem;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  padding: 1.5rem 0 1.5rem 0;
+}
+.content img {
+  width: 3.57rem;
+  height: 3.57rem;
+  background: #efefef;
+  border-radius: 0.57rem ;
+}
+.content-center {
+  padding-left: 1rem;
+}
+.content-center .com-name {
+  width: 15rem;
+  height: 1rem;
+  font-size: 15px;
+  font-family: PingFang-SC-Medium;
+  columns: #333333;
+  line-height: 1rem;
+  padding-bottom: 1rem;
+}
+.content-center .addr {
+  color: #999999;
+  font-size: 0.75rem;
+}
+.content-center .addr .line {
+  padding: 0 1rem;
+}
+.content-right .evaluation {
+  text-align: right;
+  height: 2rem;
+  font-size: 0.81rem;
+  font-family: PingFang-SC-Medium;
+  color: #666666;
+}
+.content-right .evaluation-num {
+  text-align: right;
+  padding-right: 1rem;
+  color: #01B888;
+}
+.height20 {
+  height: 10px;
+  background: #f0f0f5;
+}
+.content2 {
+  background: #ffffff;
+  min-height: 22.06rem;
+}
+.content2 .item-content {
+  padding: 0 1rem;
+}
+.content2 .item-content video {
+  margin: 0 auto;
+  height: 12.34rem;
+  background: #333333;
+}
+.content2 .item-content .text {
+  font-size: 0.81rem;
+  font-family: PingFang-SC-Medium;
+  color: #999999;
+  line-height: 1.25rem;
+  overflow: hidden;
+  /*内容超出后隐藏*/
+  text-overflow: ellipsis;
+  /* 超出内容显示为省略号*/
+}
+.evaluation-title {
+  line-height: 2rem;
+  height: 2rem;
+  font-size: 0.94rem;
+  font-family: PingFang-SC-Medium;
+  color: #333333;
+  border-bottom: 1px solid #EEEEEE;
+}
+.right {
+  float: right;
+  margin-left: auto;
+}
+.right::before {
+  content: "";
+  clear: both;
+}
+.evaluation-item {
+  padding-top: 1rem;
+}
+.evaluation-item .title {
+  line-height: 1rem;
+  display: flex;
+  font-size: 14px;
+}
+.evaluation-item .title img {
+  display: inline-block;
+  border-radius: 50px;
+  width: 1.88rem;
+  height: 1.88rem;
+}
+.evaluation-item .title .item-name {
+  margin-left: 1rem;
+  line-height: 1rem;
+}
